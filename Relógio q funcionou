@@ -1,0 +1,18 @@
+let S = 0
+let M = 0
+let H = 0
+
+for (H; H <= 24; H++) {
+  console.log(H +":"+ M +":"+ S)
+
+        for (M; M <= 60; M++) {
+        console.log(H +":"+ M +":"+ S)
+        
+            for (S; S <= 60; S++) {
+            console.log(H +":"+ M +":"+ S)
+        }
+        S = 0
+    }
+    M = 0
+}
+
